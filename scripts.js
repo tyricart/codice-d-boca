@@ -1,6 +1,6 @@
 const menuElement = document.querySelector('#menu')
 // go get me some food from API
-fetch('https://codice-boca.web.app/menu')
+fetch('http://localhost:4000/')
     .then(myRes => myRes.json())
     .then(menuItems => {
         let html = ''

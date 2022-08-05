@@ -8,7 +8,7 @@
 
 body {
     box-sizing: border-box;
-    background: url(/images/menu-background.jpeg);
+    background: url('./images/menu-background.jpeg');
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-size: cover;
 }
@@ -27,7 +27,7 @@ li {
 }
 
 .container {
-    background-image: url(./images/700x700.webp);
+    background-image: url('./images/700x700.webp');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center -190px;
@@ -43,13 +43,13 @@ li {
 }
 
 #hero {
-    background: url(/images/chickenParmesan.webp) no-repeat;
+    background: url('./images/chickenParmesan.webp') no-repeat;
     background-size: cover;
     min-height: 200px;
 }
 
 h1 {
-    color: white;
+    color: black;
     font-size: 70pt;
     font-family: 'Voltage';
     text-align: center;
